@@ -1,0 +1,144 @@
+/* Theme Name: Tom skabelon
+Author: Christina, Angelica og Sofie
+Version: 1.0
+*/
+
+/************* CUSTOM CSS ****************/
+
+body{
+	background:#fbfbfb;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{font-family: 'Baloo 2', cursive;}
+h1{text-align: center;}
+header{
+	width:100%;
+	height:auto;
+	background:#1d0f0b;
+	height:80px;
+}
+.navbar .container {
+    height: 80px;
+}
+.container{margin-top:0;}
+.navbar-expand-md .navbar-collapse{
+	justify-content:flex-end;
+}
+
+a.navbar-brand{color:black;}
+.container{
+	max-width:2000px;
+	padding: 40px 0;
+}
+.card:hover {
+    cursor:pointer;
+}
+.hero-image-bg {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+
+}
+
+.hero-image-bg h2{color:#fff; font-family: 'Baloo 2', cursive; font-size:55px; text-shadow: 0px 2px 7px #000;}
+.hero-image-bg p{color:#fff; font-family: 'Roboto', sans-serif; font-size:22px; text-shadow: 0px 2px 7px #000;}
+
+#menu-top-menu a {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.card-img-top{
+    object-fit: contain;
+    max-height: 140px;
+}
+
+.containerf p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.containerf {
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #1d0f0b;
+    padding: 20px;
+    color:#fff;
+    
+}
+
+.footer .container{padding:0;}
+.footer p{margin:0;}
+
+.footer .card{
+	background:none;
+	border:none;
+}
+
+.footer .card p{
+	line-height:1.2;
+}
+
+
+.menu-top-menu-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-dialog{max-width:1200px;}
+
+.minContent{margin-bottom:3rem;}
+
+a.nav-link{color:#cfbbb0;}
+
+h3.widget-title {
+    font-size: 18px;
+}
+
+.textwidget{font-size:14px;}
+
+.navbar{height:80px;}
+
+.custom-logo {
+    width: auto;
+    height: 80px;
+}
+
+.navbar-brand{margin:0;}
+
+.beregner {
+    margin-left: 2em; 
+}
+
+#footerf{
+     width: 100%;
+    height: auto;
+    background-color: #1d0f0b;
+    padding: 20px;
+    color:#fff;
+}
+#section1 {padding:40px 0;
+}
+.container{padding-left: 20px;
+	padding-right:20px;
+}
+
+@media only screen and (max-width: 500px) {
+.navbar-collapse{position:absolute; left:0; width:100%; background-color:#000000; top:80px;}
+.navbar .container{padding:0; height:60px;}
+.navbar-nav{padding:0 20px;}
+.container{padding:0 20px;}
+}
+
